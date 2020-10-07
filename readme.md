@@ -1,5 +1,7 @@
 # Typography Tutorial
 
+[Repo Github Page](https://anabrd.github.io/typography-tutorial/)
+
 Semantic HTML, CSS Properties, Font Awesome
 
 - color
