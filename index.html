@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/86885a7d3c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>
+            TYPOGRAPHY TUTORIAL 🖋
+        </h1>
+    </header>
+    <main>
+        <!--  Color -->
+        <section>
+            <h2>color</h2>
+            <h3>Default Value</h3>
+            <article>
+                <div>
+                    Defines the color of the text.
+
+                    <h4>Syntax:</h4>
+                    <code>color: "color-value";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p>Hello World!</p>
+                </aside>
+            </article>
+
+            <!-- Transparent Color -->
+            <h3>Transparent Color</h3>
+            <article>
+                <div>
+                    Defines the color of the text.
+
+                    <h4>Syntax:</h4>
+                    <code>color: "color-value (rgba with alpha)";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="transparent">Hello World!</p>
+                </aside>
+            </article>
+        </section>
+
+
+        <!-- Font Family -->
+        <section>
+            <h2>font-family</h2>
+            <h3>Default Value</h3>
+            <article>
+                <div>
+                    Sets a specific font for the text.
+
+                    <h4>Syntax:</h4>
+                    <code>font-family: [some font];</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="default-font-family">Hello World!</p>
+                </aside>
+            </article>
+
+            <h3>Internal Font</h3>
+            <article>
+                <div>
+                    Browser tries Arial first. If not possible, it moves on to Helvetice. If that's not possible either,
+                    it attempts to render sans-serif.
+
+                    <h4>Syntax:</h4>
+                    <code>font-family: "Arial, Helvetica, sans-serif";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="internal-font">Hello World!</p>
+                </aside>
+            </article>
+
+            <h3>External Font</h3>
+            <article>
+                <div>
+                    Uses external font sheet. Referenced in HTML and CSS.
+
+                    <h4>Syntax:</h4>
+                    <p>
+                        HTML:
+                        <code>&lt;link href&gt;</code>
+                    </p>
+                    <p>
+                        CSS:
+                        <code>font-family: 'Montserrat', Helvetica, sans-serif;</code>
+                    </p>
+
+                    <p>
+                        CSS Import:
+                        <code>@import url("link");</code>
+                    </p>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="external-font">Hello World!</p>
+                </aside>
+            </article>
+
+            <h3>Font-face Rule</h3>
+            <article>
+                <div>
+                    Uses locally downloaded font (e.g. .ttf, .otf formats). Referenced in CSS with the font-face rule.
+
+                    <h4>Syntax:</h4>
+                    <p>
+                        CSS:
+                        <code>@font-face {font-family: "Name", src: url(link)};</code>
+                    </p>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="font-face">Hello World!</p>
+                </aside>
+            </article>
+
+
+
+        </section>
+
+        <!-- Font Size -->
+        <section>
+            <h2>font-size</h2>
+            <h3>Default Value</h3>
+            <article>
+                <div>
+                    Defines the size of the text.
+
+                    <h4>Syntax:</h4>
+                    <code>font-size: "size + unit";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="default-size">Hello World!</p>
+                </aside>
+            </article>
+
+            <!-- Unit: em -->
+            <h3>Units: em</h3>
+            <article>
+                <div>
+                    <p>Defined the size of the text based on the parent element.</p>
+                    <h4>Syntax:</h4>
+                    <code>font-size: "value em";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="font-weight-kw-div">
+                    Parent container: font-size: 20px;
+                    <div class="em1">
+                        font-size: 1.2em (24px)
+                        <div class="em2">
+                            font-size: 1.2em (28.8px)
+                            <div class="em3">
+                                font-size: 1.2em (34.56px)
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </aside>
+            </article>
+
+            <!-- Units: rem -->
+            <h3>Units: rem</h3>
+            <article>
+                <div>
+                    <p>Defined the size of the text based on the root element (usually html).</p>
+                    <h4>Syntax:</h4>
+                    <code>font-size: "value rem";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div class="font-weight-kw-div">
+                    Root element: font-size: 16px;
+                    <div class="rem1">
+                        font-size: 1.2rem (19.2px)
+                        <div class="rem2">
+                            font-size: 1.5rem (24px)
+                            <div class="rem3">
+                                font-size: 1.8rem (28.8px)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </aside>
+            </article>
+
+            <!-- Units: percentage -->
+            <h3>Units: %</h3>
+            <article>
+                <div>
+                    <p>Defined the size of the text based on the parent element, only in percentages.</p>
+                    <h4>Syntax:</h4>
+                    <code>font-size: "value %";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div class="font-weight-kw-div">
+                    Parent container: font-size: 20px;
+                    <div class="percent1">
+                        font-size: 110%
+                        <div class="percent2">
+                            font-size: 120%
+                            <div class="percent3">
+                                font-size: 130%
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </aside>
+            </article>
+
+            <!--     Absolute Keywords -->
+
+            <h3>Units: Absolute Keywords</h3>
+            <article>
+                <div>
+                    <p>Define the size of the text based on the parent element, using absolute keywords like large,
+                        small, larger, smaller, etc.</p>
+                    <h4>Syntax:</h4>
+                    <code>font-size: "absolute keyword";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div class="font-weight-kw-div">
+                    Parent container: font-size: medium;
+                    <div class="kw-small">
+                        font-size: small;
+                        <div class="kw-smaller">
+                            font-size: smaller;
+                        </div>
+                    </div>
+
+                    Parent container: font-size: medium;
+                    <div class="kw-large">
+                        font-size: large;
+                        <div class="kw-larger">
+                            font-size: larger;
+                        </div>
+                    </div>
+
+                    Parent container: font-size: medium;
+                    <div class="kw-small2">
+                        font-size: small;
+                        <div class="kw-large2">
+                            font-size: large;
+                        </div>
+                    </div>
+
+                    </div>
+                </aside>
+            </article>
+
+        </section>
+
+        <!-- Semantic HTML -->
+        <section>
+            <h2>Semantic HTML</h2>
+            <article>
+
+                <div>
+                    <p>HTML inline text semantic is used to define the meaning, structure, or style of a word, line, or
+                        any arbitrary piece of text.</p>
+                    <h4>Syntax:</h4>
+                    <p>Strong</p>
+                    <code>&lt;strong&gt;&lt;/strong&gt;</code>
+                    <p>Em</p>
+                    <code>&lt;em&gt;&lt;/em&gt;</code>
+                    <p>Superscript</p>
+                    <code>&lt;sup&gt;&lt;/sup&gt;</code>
+                    <p>Subscript</p>
+                    <code>&lt;sub&gt;&lt;/sub&gt;</code>
+                    <p>Span</p>
+                    <code>&lt;span&gt;&lt;/span&gt;</code>
+                    <p>Del, Small and Mark</p>
+                    <code>&lt;del&gt;&lt;/del&gt;</code>
+                    <code>&lt;small&gt;&lt;/small&gt;</code>
+                    <code>&lt;mark&gt;&lt;/mark&gt;</code>
+                </div>
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div class="semantic-html">
+                        <div>
+                            I am an <strong>important</strong> part of the text.
+                        </div>
+
+                        <div>
+                            I am an <em>important</em> part of the text.
+                        </div>
+
+                        <div>
+                            E = mc<sup>2</sup>
+                        </div>
+
+                        <div>
+                            H<sub>2</sub>O
+                        </div>
+
+                        <div>
+                            I am a <span class="special">special</span> part of the text.
+                        </div>
+
+                        <div>
+                            This costs <small><del>$99</del></small> <mark>$0.99</mark>!
+                        </div>
+                    </div>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Text Alignment -->
+        <section>
+            <h2>text-alignment</h2>
+            <article>
+
+                <div>
+                    <p>Difference between text alignment and center alignment.</p>
+                    <h4>Syntax:</h4>
+                    <p>Text alignment</p>
+                    <code>text-align: center;</code>
+                </div>
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div class="text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam reiciendis, laboriosam sed
+                        sapiente iusto cum iure amet praesentium quisquam esse earum consequuntur consequatur labore
+                        animi beatae laudantium dolor quia eos ad harum? Doloribus quasi necessitatibus sequi commodi
+                        porro repellendus vitae consectetur architecto officia, modi nihil! Iure earum inventore nostrum
+                        sed.
+                    </div>
+
+                </aside>
+            </article>
+
+            <article>
+
+                <div>
+                    <p>Centered content.</p>
+                    <h4>Syntax:</h4>
+                    <code>margin: auto;</code>
+                </div>
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div class="content-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam reiciendis, laboriosam sed
+                        sapiente iusto cum iure amet praesentium quisquam esse earum consequuntur consequatur labore
+                        animi beatae laudantium dolor quia eos ad harum? Doloribus quasi necessitatibus sequi commodi
+                        porro repellendus vitae consectetur architecto officia, modi nihil! Iure earum inventore nostrum
+                        sed.
+                    </div>
+
+                </aside>
+            </article>
+            <article>
+
+                <div>
+                    <p>Text alignment and centered content combined.</p>
+                    <h4>Syntax:</h4>
+                    <p>Text alignment</p>
+                    <code>text-align: center; margin: auto;</code>
+                </div>
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <div class="text-center content-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam reiciendis, laboriosam sed
+                        sapiente iusto cum iure amet praesentium quisquam esse earum consequuntur consequatur labore
+                        animi beatae laudantium dolor quia eos ad harum? Doloribus quasi necessitatibus sequi commodi
+                        porro repellendus vitae consectetur architecto officia, modi nihil! Iure earum inventore nostrum
+                        sed.
+                    </div>
+
+                </aside>
+            </article>
+        </section>
+
+        <!--  Font Weight -->
+        <section>
+            <h2>font-weight</h2>
+            <h3>Default Value</h3>
+            <article>
+                <div>
+                    Defines the default weight of the text.
+
+                    <h4>Syntax:</h4>
+                    <code>font-weight: "weight-value";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p>Hello World!</p>
+                </aside>
+            </article>
+
+            <!-- Specific Weight Value -->
+            <h3>Specific Numeric Values</h3>
+            <article>
+                <div>
+                    The numerical scale consisting of the numbers 100-900. These values range from lightest
+                    (100) to
+                    boldest (900).
+                    <br>
+                    <br>
+                    100 Thin | 200 Extra Light | 300 Light | 400 Normal | 500 Medium|600 Semi Bold|700 Bold|800 Extra
+                    Bold | 900 Ultra Bold
+
+                    <h4>Syntax:</h4>
+                    <code>font-weight: "numeric value";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="weight700">Hello World!</p>
+                </aside>
+            </article>
+
+            <!-- Key Words -->
+            <h3>Keywords</h3>
+            <article>
+                <div>
+                    Keywords used to specify font weight.
+                    <ul>
+                        <li>Normal</li>
+                        <li>Bold</li>
+                        <li>Bolder</li>
+                        <li>Lighter</li>
+                    </ul>
+
+                    <h4>Syntax:</h4>
+                    <code>font-weight: "keyword";</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="bolder">Hello World!</p>
+
+                    <div class="parent">Parent
+                        <div class="child">Child</div>
+                    </div>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Font Style -->
+        <section>
+            <h2>font-style</h2>
+            <h3>Italic</h3>
+            <article>
+                <div>
+                    Defines the default style of the text.
+
+                    <h4>Syntax:</h4>
+                    <code>font-style: italic;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="italic">Hello World!</p>
+                </aside>
+            </article>
+
+            <h3>Oblique</h3>
+            <article>
+                <div>
+                    Font skewed by a certain number of degrees.
+                    <h4>Syntax:</h4>
+                    <code>font-style: oblique;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="oblique">Hello World!</p>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Text Decoration -->
+        <section>
+            <h2>text-decoration</h2>
+            <h3>None</h3>
+            <article>
+                <div>
+                    Removes text decoration, if it previously existed.
+
+                    <h4>Syntax:</h4>
+                    <code>text-decoration: none;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="none">Hello World!</p>
+                </aside>
+            </article>
+            <h3>Underline</h3>
+            <article>
+                <div>
+                    Underlines selected text.
+                    <h4>Syntax:</h4>
+                    <code>text-decoration: underline;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="underline">Hello World!</p>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Text Transform -->
+        <section>
+            <h2>text-transform</h2>
+            <h3>Capitalize</h3>
+            <article>
+                <div>
+                    Turns every first letter of the word into a capital letter.
+
+                    <h4>Syntax:</h4>
+                    <code>text-transform: capitalize;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="capitalize">hello world!</p>
+                </aside>
+            </article>
+            <h3>Upper Case</h3>
+            <article>
+                <div>
+                    Converts everything into upper case.
+                    <h4>Syntax:</h4>
+                    <code>text-transform: uppercase;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="uppercase">Hello World!</p>
+                </aside>
+            </article>
+
+            <h3>Lower Case</h3>
+            <article>
+                <div>
+                    Converts everything into lower case.
+                    <h4>Syntax:</h4>
+                    <code>text-transform: lowercase;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="lowercase">Hello World!</p>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Text Shadow -->
+        <section>
+            <h2>text-shadow</h2>
+            <article>
+                <div>
+                    Adds a shadow effect to the selected text.
+
+                    <h4>Syntax:</h4>
+                    <code>text-shadow:h-shadow v-shadow blur-radius color|none|initial|inherit;</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+
+                    <p class="text-shadow">Hello World!</p>
+                </aside>
+            </article>
+        </section>
+
+        <!-- Font Awesome -->
+        <section>
+            <h2>Font Awesome</h2>
+            <article>
+                <div>
+                    Font and icon toolkit based on CSS and Less.
+
+                    <h4>Syntax:</h4>
+                    <code>&lt;i&gt;class="fas fa-pizza-slice"&lt;/i&gt;</code>
+                    <p>CSS:</p>
+                    <code>.class-name {property: value};</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p>Hello, Pizza! <i class="fas fa-pizza-slice"></i></p>
+
+                    <p>Hello, Stroopwafel! <i class="fas fa-stroopwafel"></i></p>
+
+                    <p>Hello, Lemon! <i class="fas fa-lemon"></i></p>
+
+                </aside>
+            </article>
+        </section>
+
+        <!-- Pseudo Elements -->
+        <section>
+            <h2>Pseudo Elements (::before and ::after)</h2>
+            <article>
+                <div>
+                    Allows to insert content onto a page without it needing to be in the HTML.
+
+                    <h4>Syntax:</h4>
+                    <code>element::before {property: value};</code>
+                    <code>element::after {property: value};</code>
+                </div>
+
+                <aside>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <p class="pseudo">-I am a paragraph.-</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h3>October 2020</h3>
+    </footer>
+</body>
+
+</html>

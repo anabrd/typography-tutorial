@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23eaeaea' fill-opacity='0.45'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: 200px; 
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    margin: auto;
+    color: #fff;
+}
+
+@font-face {
+    font-family: "Ana";
+    src: url("./assets/MajorMonoDisplay-Regular.ttf")
+}
+
+h1 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 2.5vw;
+    text-shadow: 3px 5px #0f3057;
+}
+
+h3 {
+    margin-bottom: 3%;
+}
+
+h3,
+h4 {
+    font-family: 'Montserrat',
+        Arial,
+        Helvetica,
+        sans-serif;
+    font-weight: 700;
+}
+
+section {
+    width: 80vw;
+    margin: 50px auto;
+    padding: 1% 3% 3%;
+    background-color: #1f6cf6;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 2px #0f3057;
+}
+
+header,
+footer {
+    color: #0f3057;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+article>div {
+    color: #fff;
+    width: 45%;
+}
+
+code {
+
+    margin-bottom: 5px;
+    padding: 5px 8px;
+    background-color: #0f3057;
+    color: #fff;
+    background-color: #0f3057;
+    border-radius: 5px;
+}
+
+aside {
+background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23eaeaea' fill-opacity='0.45'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-size: 200px;
+background-attachment: fixed;
+width: 45%;
+    border-radius: 8px;
+    box-shadow: 10px 8px #eeac17;
+    display: inline-block;
+    color:#0f3057
+}
+
+aside>ul {
+    padding-left: 5px;
+    margin: 0;
+    background-color: #0f3057;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+aside>ul>li {
+    display: inline-block;
+    border: 5px solid tomato;
+    border-radius: 50%;
+}
+
+aside>ul>li:nth-child(2) {
+    border: 5px solid rgb(250, 228, 36);
+}
+
+aside>ul>li:nth-child(3) {
+    border: 5px solid rgb(88, 199, 88);
+}
+
+aside>p {
+    display: block;
+    font-size: 3vw;
+    text-align: center;
+    color: #0f3057;
+}
+
+/* Transparent Color */
+
+.transparent {
+    color: #1b355554;
+}
+
+/* FONT FAMILY */
+
+.default-font-family {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.internal-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.external-font {
+    font-family: 'Indie Flower',
+        cursive;
+    font-size: 1.5rem;
+}
+
+.font-face {
+    font-family: 'Ana';
+}
+
+
+/******** FONT SIZE *********/
+
+.default-size {
+    font-size: 20px;
+}
+
+.em1 {
+    background-color: #f3d796;
+    margin: 10px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.em2 {
+    background-color: #ebc05c;
+    margin: 10px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.em3 {
+    background-color: #eeac17;
+    margin: 10px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+/******* REM *********/
+
+
+main>section:nth-of-type(3)>article:nth-of-type(3)>aside {
+    font-size: 16px;
+}
+
+.rem1 {
+    background-color: #3bedfa;
+    margin: 10px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.rem2 {
+    background-color: rgb(47, 200, 214);
+    margin: 10px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.rem3 {
+    background-color: #2ab1bb;
+    margin: 10px;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+/******* PERCENTAGE *********/
+
+main>section:nth-of-type(3)>article:nth-of-type(4)>aside {
+    font-size: 16px;
+}
+
+.percent1 {
+    background-color: #fdc09a;
+    margin: 10px;
+    font-size: 110%;
+    padding-bottom: 10px;
+}
+
+.percent2 {
+    background-color: #eb894c;
+    margin: 10px;
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+
+.percent3 {
+    background-color: #c44c02;
+    margin: 10px;
+    font-size: 130%;
+    padding-bottom: 10px;
+}
+
+/******* KEY WORDS *********/
+
+.font-weight-kw-div {
+    font-size: medium;
+    padding: 15px;
+}
+
+.kw-small {
+    background-color: #ebc05c;
+    margin: 10px;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.kw-smaller {
+    background-color: #eeac17;
+    margin: 10px;
+    font-size: smaller;
+    padding-bottom: 10px;
+}
+
+.kw-large {
+    background-color: rgb(47, 200, 214);
+    margin: 10px;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+.kw-larger {
+    background-color: #2ab1bb;
+    margin: 10px;
+    font-size: larger;
+    padding-bottom: 10px;
+}
+
+.kw-small2 {
+    background-color: #eb894c;
+    margin: 10px;
+    font-size: small;
+    padding-bottom: 10px;
+}
+
+.kw-large2 {
+    background-color: #c44c02;
+    margin: 10px;
+    font-size: large;
+    padding-bottom: 10px;
+}
+
+/* SEMANTIC HTML */
+
+.semantic-html {
+    font-size: 2.5vh;
+    line-height: 3;
+    text-align: center;
+}
+
+.special {
+    color: #eeac17;
+    background-color: #2ab1bb;
+}
+
+/* Text Alignment */
+
+.text-center {
+    padding: 15px;
+    text-align: center;
+}
+
+.content-center {
+    padding: 15px;
+    margin: auto;
+}
+
+/* Font Weight */
+
+.weight700 {
+    font-weight: 700;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.parent {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.child {
+    font-weight: lighter;
+}
+
+/* Font Style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Text Transform */
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 10px #2ab1bb;
+}
+
+/* Font Awesome */
+
+i {
+    font-size: 4rem;
+
+}
+
+.fa-pizza-slice {
+    color: indianred;
+}
+
+.fa-stroopwafel {
+    color: burlywood;
+}
+
+.fa-lemon {
+    color: yellow;
+}
+
+/* Pseudo Elements */
+
+.pseudo::before {
+    content: "I'm before paragraph";
+    color: lightcoral;
+}
+
+.pseudo::after {
+    content: "I'm after paragraph";
+    color: #2ab1bb;
+}
