@@ -48,7 +48,7 @@
             <h3>Transparent Color</h3>
             <article>
                 <div>
-                    Defines the color of the text.
+                    Defines the color of the text with alpha value to create transparent effect.
 
                     <h4>Syntax:</h4>
                     <code>color: "color-value (rgba with alpha)";</code>
@@ -65,7 +65,6 @@
                 </aside>
             </article>
         </section>
-
 
         <!-- Font Family -->
         <section>
@@ -93,8 +92,8 @@
             <h3>Internal Font</h3>
             <article>
                 <div>
-                    Browser tries Arial first. If not possible, it moves on to Helvetice. If that's not possible either,
-                    it attempts to render sans-serif.
+                    Browser first attempts to render Arial. If not successful, it moves on to Helvetica. When that's not possible either,
+                    it renders sans-serif.
 
                     <h4>Syntax:</h4>
                     <code>font-family: "Arial, Helvetica, sans-serif";</code>
@@ -772,7 +771,9 @@
                         <li></li>
                         <li></li>
                     </ul>
+                    <div class="pseudo-paragraph">
                     <p class="pseudo">-I am a paragraph.-</p>
+                    </div>
                 </aside>
             </article>
         </section>

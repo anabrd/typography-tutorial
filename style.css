@@ -389,3 +389,7 @@ i {
     content: "I'm after paragraph";
     color: #2ab1bb;
 }
+
+.pseudo-paragraph {
+    padding: 10px;
+}
