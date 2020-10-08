@@ -49,13 +49,14 @@ body {
     top: 0;
 }
 
-.fa-bars {
-    font-size: 2vw;
-}
-
 .topnav a:hover {
     background-color: #eeac17;
     color: black;
+}
+
+.fa-bars {
+    font-size: 3vh;
+    padding: 1% 2%;
 }
 
 h1 {
@@ -406,7 +407,7 @@ main>section:nth-of-type(3)>article:nth-of-type(4)>aside {
 
 /* Font Awesome */
 
-i {
+p > i {
     font-size: 3vw;
 }
 
