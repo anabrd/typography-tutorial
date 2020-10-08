@@ -16,13 +16,35 @@
 
 <body>
     <header>
+
+ <!--        Navbar -->
+
+        <nav class="topnav">
         <h1>
             TYPOGRAPHY TUTORIAL 🖋
         </h1>
+        <div id="my-links">
+            <a href="#color">color</a>
+            <a href="#font-family">font-family</a>
+            <a href="#font-size">font-size</a>
+            <a href="#semantic-html">Semantic HTML</a>
+            <a href="#text-alignment">text-alignment</a>
+            <a href="#font-weight">font-weight</a>
+            <a href="#font-style">font-style</a>
+            <a href="#text-decoration">text-decoration</a>
+            <a href="#text-transform">text-transform</a>
+            <a href="#text-shadow">text-shadow</a>
+            <a href="#font-awesome">font-awesome</a>
+            <a href="#pseudo-elements">Pseudo Elements</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </nav>
     </header>
     <main>
         <!--  Color -->
-        <section>
+        <section id="color">
             <h2>color</h2>
             <h3>Default Value</h3>
             <article>
@@ -67,7 +89,7 @@
         </section>
 
         <!-- Font Family -->
-        <section>
+        <section id="font-family">
             <h2>font-family</h2>
             <h3>Default Value</h3>
             <article>
@@ -170,7 +192,7 @@
         </section>
 
         <!-- Font Size -->
-        <section>
+        <section id="font-size">
             <h2>font-size</h2>
             <h3>Default Value</h3>
             <article>
@@ -334,7 +356,7 @@
         </section>
 
         <!-- Semantic HTML -->
-        <section>
+        <section id="semantic-html">
             <h2>Semantic HTML</h2>
             <article>
 
@@ -394,7 +416,7 @@
         </section>
 
         <!-- Text Alignment -->
-        <section>
+        <section id="text-alignment">
             <h2>text-alignment</h2>
             <article>
 
@@ -474,7 +496,7 @@
         </section>
 
         <!--  Font Weight -->
-        <section>
+        <section id="font-weight">
             <h2>font-weight</h2>
             <h3>Default Value</h3>
             <article>
@@ -556,7 +578,7 @@
         </section>
 
         <!-- Font Style -->
-        <section>
+        <section id="font-style">
             <h2>font-style</h2>
             <h3>Italic</h3>
             <article>
@@ -599,7 +621,7 @@
         </section>
 
         <!-- Text Decoration -->
-        <section>
+        <section id="text-decoration">
             <h2>text-decoration</h2>
             <h3>None</h3>
             <article>
@@ -641,7 +663,7 @@
         </section>
 
         <!-- Text Transform -->
-        <section>
+        <section id="text-transform">
             <h2>text-transform</h2>
             <h3>Capitalize</h3>
             <article>
@@ -702,7 +724,7 @@
         </section>
 
         <!-- Text Shadow -->
-        <section>
+        <section id="text-shadow">
             <h2>text-shadow</h2>
             <article>
                 <div>
@@ -725,7 +747,7 @@
         </section>
 
         <!-- Font Awesome -->
-        <section>
+        <section id="font-awesome">
             <h2>Font Awesome</h2>
             <article>
                 <div>
@@ -754,7 +776,7 @@
         </section>
 
         <!-- Pseudo Elements -->
-        <section>
+        <section id="pseudo-elements">
             <h2>Pseudo Elements (::before and ::after)</h2>
             <article>
                 <div>
@@ -782,6 +804,17 @@
     <footer>
         <h3>October 2020</h3>
     </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("my-links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>
