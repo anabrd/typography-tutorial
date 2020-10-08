@@ -47,16 +47,13 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+    font-size: 3vh;
+    padding: 1% 2%;
 }
 
 .topnav a:hover {
     background-color: #eeac17;
     color: black;
-}
-
-.fa-bars {
-    font-size: 3vh;
-    padding: 1% 2%;
 }
 
 h1 {
