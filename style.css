@@ -15,6 +15,10 @@ body {
     color: #fff;
 }
 
+main {
+    padding-top: 3%;
+}
+
 @font-face {
     font-family: "Ana";
     src: url("./assets/MajorMonoDisplay-Regular.ttf")
